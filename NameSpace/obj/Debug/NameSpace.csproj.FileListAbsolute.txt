@@ -1,0 +1,6 @@
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\bin\Debug\NameSpace.exe
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\bin\Debug\NameSpace.pdb
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\obj\Debug\NameSpace.csprojAssemblyReference.cache
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\obj\Debug\NameSpace.csproj.CoreCompileInputs.cache
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\obj\Debug\NameSpace.exe
+C:\Users\NHAT\RiderProjects\Lab5\NameSpace\obj\Debug\NameSpace.pdb

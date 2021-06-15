@@ -1,0 +1,6 @@
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\bin\Debug\ExHandling2.exe
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\bin\Debug\ExHandling2.pdb
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\obj\Debug\ExHandling2.csprojAssemblyReference.cache
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\obj\Debug\ExHandling2.csproj.CoreCompileInputs.cache
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\obj\Debug\ExHandling2.exe
+C:\Users\NHAT\RiderProjects\Lab5\ExHandling2\obj\Debug\ExHandling2.pdb
