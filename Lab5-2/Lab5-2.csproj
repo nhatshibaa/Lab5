@@ -38,9 +38,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="PersonName.cs" />
+        <Compile Include="AbstractTeacher.cs" />
+        <Compile Include="AmountException.cs" />
+        <Compile Include="HighschoolTeacher.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="UniversityTeacher.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

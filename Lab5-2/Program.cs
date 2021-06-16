@@ -5,42 +5,31 @@ namespace Lab5_2
 {
     internal class Program
     {
-        [Serializable]
-        public class AmountException : Exception
-        {
-            public string personName;
-            public double Salary { get; set; }
-            public double Bonus { get; set; }
-            public string Rank { get; set; }
-            public AmountException()
-            {
-                if (Salary < 60000 && Rank == "Senior Lecture")
-                {
-                    Console.WriteLine("Senior Lecture get more than 60,000 salary!");
-                }
-            }
-
-            public AmountException(string message) : base(message)
-            {
-            }
-
-            public AmountException(string message, Exception innerException) : base(message, innerException)
-            {
-            }
-            
-        }
         public static void Main(string[] args)
         {
-            try
+            var highSchool = new HighschoolTeacher()
             {
-                AmountException amountException = new AmountException();
-                amountException.Salary = 50000;
-                amountException.Rank = "Junior";
-            }
-            catch (AmountException e)
+                IdentityNumber = "ID01",
+                Name = "Japan",
+                BaseSalary = 300,
+                Level = 1,
+                Bonus = 100,
+                IsSenior = false,
+                HighSchoolCode = "HS001"
+            };
+            Console.WriteLine(highSchool.CalculateSalary());
+            var university = new UniversityTeacher()
             {
-                throw new AmountException(e.Message);
-            }
+                IdentityNumber = "ID02",
+                Name = "Nhat",
+                BaseSalary = 60000,
+                Level = 2,
+                Bonus = 900,
+                IsSenior = true,
+                EnglishLevel = 2,
+                UniversityCode = "UN001"
+            };
+            Console.WriteLine(university.CalculateSalary());
         }
     }
 }
